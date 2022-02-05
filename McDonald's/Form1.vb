@@ -5,7 +5,8 @@
 
         If Burger_CheckBox.Checked Then
             Qty_burger.Enabled = True
-            Qty_burger.Text = 0
+            Qty_burger.Clear()
+
         Else
             Qty_burger.Enabled = False
             Qty_burger.Text = 0
@@ -16,7 +17,8 @@
 
         If Fries_CheckBox3.Checked Then
             Qty_Fries.Enabled = True
-            Qty_Fries.Text = 0
+            Qty_Fries.Clear()
+
         Else
             Qty_Fries.Enabled = False
             Qty_Fries.Text = 0
@@ -26,7 +28,7 @@
     Private Sub McpuffCheckBox_CheckedChanged(sender As Object, e As EventArgs) Handles McpuffCheckBox.CheckedChanged
         If McpuffCheckBox.Checked Then
             Qty_Mcpuff.Enabled = True
-            Qty_Mcpuff.Text = 0
+            Qty_Mcpuff.Clear()
         Else
             Qty_Mcpuff.Enabled = False
             Qty_Mcpuff.Text = 0
@@ -36,7 +38,7 @@
     Private Sub HappymealCheckBox_CheckedChanged(sender As Object, e As EventArgs) Handles HappymealCheckBox.CheckedChanged
         If HappymealCheckBox.Checked Then
             Qty_Happymeal.Enabled = True
-            Qty_Happymeal.Text = 0
+            Qty_Happymeal.Clear()
         Else
             Qty_Happymeal.Enabled = False
             Qty_Happymeal.Text = 0
@@ -46,7 +48,7 @@
     Private Sub McflurryCheckBox_CheckedChanged(sender As Object, e As EventArgs) Handles McflurryCheckBox.CheckedChanged
         If McflurryCheckBox.Checked Then
             Qty_Mcflurry.Enabled = True
-            Qty_Mcflurry.Text = 0
+            Qty_Mcflurry.Clear()
         Else
             Qty_Mcflurry.Enabled = False
             Qty_Mcflurry.Text = 0
@@ -56,7 +58,7 @@
     Private Sub CokeCheckBox_CheckedChanged(sender As Object, e As EventArgs) Handles CokeCheckBox.CheckedChanged
         If CokeCheckBox.Checked Then
             Qty_Coke.Enabled = True
-            Qty_Coke.Text = 0
+            Qty_Coke.Clear()
         Else
             Qty_Coke.Enabled = False
             Qty_Coke.Text = 0
@@ -67,7 +69,7 @@
     Private Sub RedbullCheckBox_CheckedChanged(sender As Object, e As EventArgs) Handles RedbullCheckBox.CheckedChanged
         If RedbullCheckBox.Checked Then
             Qty_Redbull.Enabled = True
-            Qty_Redbull.Text = 0
+            Qty_Redbull.Clear()
         Else
             Qty_Redbull.Enabled = False
             Qty_Redbull.Text = 0
@@ -77,7 +79,7 @@
     Private Sub IceteaCheckBox_CheckedChanged(sender As Object, e As EventArgs) Handles IceteaCheckBox.CheckedChanged
         If IceteaCheckBox.Checked Then
             Qty_Icetea.Enabled = True
-            Qty_Icetea.Text = 0
+            Qty_Icetea.Clear()
         Else
             Qty_Icetea.Enabled = False
             Qty_Icetea.Text = 0
@@ -86,9 +88,9 @@
     End Sub
 
     Private Sub LemonteaCheckBox_CheckedChanged(sender As Object, e As EventArgs) Handles LemonteaCheckBox.CheckedChanged
-        If LemonteaCheckBox.Text Then
+        If LemonteaCheckBox.Checked Then
             Qty_Lemontea.Enabled = True
-            Qty_Lemontea.Text = 0
+            Qty_Lemontea.Clear()
         Else
             Qty_Lemontea.Enabled = False
             Qty_Lemontea.Text = 0

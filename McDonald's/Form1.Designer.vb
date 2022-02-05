@@ -75,6 +75,19 @@ Partial Class Form1
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.Panel3.SuspendLayout()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -95,6 +108,10 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Panel3.Controls.Add(Me.Label16)
+        Me.Panel3.Controls.Add(Me.Label13)
+        Me.Panel3.Controls.Add(Me.Label14)
+        Me.Panel3.Controls.Add(Me.Label11)
         Me.Panel3.Controls.Add(Me.PictureBox12)
         Me.Panel3.Controls.Add(Me.PictureBox11)
         Me.Panel3.Controls.Add(Me.PictureBox10)
@@ -113,7 +130,7 @@ Partial Class Form1
         Me.Panel3.Controls.Add(Me.CokeCheckBox)
         Me.Panel3.Location = New System.Drawing.Point(844, 246)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(467, 244)
+        Me.Panel3.Size = New System.Drawing.Size(481, 244)
         Me.Panel3.TabIndex = 26
         '
         'PictureBox12
@@ -150,34 +167,37 @@ Partial Class Form1
         '
         Me.Qty_Lemontea.Enabled = False
         Me.Qty_Lemontea.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Lemontea.Location = New System.Drawing.Point(350, 199)
+        Me.Qty_Lemontea.Location = New System.Drawing.Point(363, 199)
         Me.Qty_Lemontea.Multiline = True
         Me.Qty_Lemontea.Name = "Qty_Lemontea"
         Me.Qty_Lemontea.Size = New System.Drawing.Size(73, 25)
         Me.Qty_Lemontea.TabIndex = 11
         Me.Qty_Lemontea.Text = "0"
+        Me.Qty_Lemontea.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Qty_Icetea
         '
         Me.Qty_Icetea.Enabled = False
         Me.Qty_Icetea.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Icetea.Location = New System.Drawing.Point(350, 148)
+        Me.Qty_Icetea.Location = New System.Drawing.Point(363, 148)
         Me.Qty_Icetea.Multiline = True
         Me.Qty_Icetea.Name = "Qty_Icetea"
         Me.Qty_Icetea.Size = New System.Drawing.Size(73, 25)
         Me.Qty_Icetea.TabIndex = 10
         Me.Qty_Icetea.Text = "0"
+        Me.Qty_Icetea.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Qty_Redbull
         '
         Me.Qty_Redbull.Enabled = False
         Me.Qty_Redbull.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Redbull.Location = New System.Drawing.Point(350, 93)
+        Me.Qty_Redbull.Location = New System.Drawing.Point(363, 93)
         Me.Qty_Redbull.Multiline = True
         Me.Qty_Redbull.Name = "Qty_Redbull"
         Me.Qty_Redbull.Size = New System.Drawing.Size(73, 25)
         Me.Qty_Redbull.TabIndex = 9
         Me.Qty_Redbull.Text = "0"
+        Me.Qty_Redbull.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'PictureBox4
         '
@@ -193,18 +213,19 @@ Partial Class Form1
         '
         Me.Qty_Coke.Enabled = False
         Me.Qty_Coke.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Coke.Location = New System.Drawing.Point(350, 36)
+        Me.Qty_Coke.Location = New System.Drawing.Point(363, 36)
         Me.Qty_Coke.Multiline = True
         Me.Qty_Coke.Name = "Qty_Coke"
         Me.Qty_Coke.Size = New System.Drawing.Size(73, 25)
         Me.Qty_Coke.TabIndex = 8
         Me.Qty_Coke.Text = "0"
+        Me.Qty_Coke.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'LabelLemontea
         '
         Me.LabelLemontea.AutoSize = True
         Me.LabelLemontea.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelLemontea.Location = New System.Drawing.Point(256, 199)
+        Me.LabelLemontea.Location = New System.Drawing.Point(287, 199)
         Me.LabelLemontea.Name = "LabelLemontea"
         Me.LabelLemontea.Size = New System.Drawing.Size(34, 25)
         Me.LabelLemontea.TabIndex = 7
@@ -214,7 +235,7 @@ Partial Class Form1
         '
         Me.LabelIcetea.AutoSize = True
         Me.LabelIcetea.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelIcetea.Location = New System.Drawing.Point(253, 148)
+        Me.LabelIcetea.Location = New System.Drawing.Point(284, 148)
         Me.LabelIcetea.Name = "LabelIcetea"
         Me.LabelIcetea.Size = New System.Drawing.Size(34, 25)
         Me.LabelIcetea.TabIndex = 6
@@ -224,7 +245,7 @@ Partial Class Form1
         '
         Me.LabelRedbull.AutoSize = True
         Me.LabelRedbull.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelRedbull.Location = New System.Drawing.Point(253, 93)
+        Me.LabelRedbull.Location = New System.Drawing.Point(284, 93)
         Me.LabelRedbull.Name = "LabelRedbull"
         Me.LabelRedbull.Size = New System.Drawing.Size(45, 25)
         Me.LabelRedbull.TabIndex = 5
@@ -234,7 +255,7 @@ Partial Class Form1
         '
         Me.LabelCoke.AutoSize = True
         Me.LabelCoke.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelCoke.Location = New System.Drawing.Point(250, 36)
+        Me.LabelCoke.Location = New System.Drawing.Point(281, 36)
         Me.LabelCoke.Name = "LabelCoke"
         Me.LabelCoke.Size = New System.Drawing.Size(34, 25)
         Me.LabelCoke.TabIndex = 4
@@ -287,9 +308,13 @@ Partial Class Form1
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Panel2.Controls.Add(Me.Label15)
+        Me.Panel2.Controls.Add(Me.Label12)
+        Me.Panel2.Controls.Add(Me.Label10)
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Controls.Add(Me.Final_Bill_TextBox)
         Me.Panel2.Controls.Add(Me.GST_TextBox)
+        Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Controls.Add(Me.Final_Bill_Label)
         Me.Panel2.Controls.Add(Me.Total_Bill)
         Me.Panel2.Controls.Add(Me.Label6)
@@ -312,21 +337,25 @@ Partial Class Form1
         '
         'Final_Bill_TextBox
         '
+        Me.Final_Bill_TextBox.Enabled = False
         Me.Final_Bill_TextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Final_Bill_TextBox.Location = New System.Drawing.Point(151, 134)
         Me.Final_Bill_TextBox.Name = "Final_Bill_TextBox"
         Me.Final_Bill_TextBox.Size = New System.Drawing.Size(100, 27)
         Me.Final_Bill_TextBox.TabIndex = 7
         Me.Final_Bill_TextBox.Text = "0"
+        Me.Final_Bill_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GST_TextBox
         '
+        Me.GST_TextBox.Enabled = False
         Me.GST_TextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GST_TextBox.Location = New System.Drawing.Point(151, 59)
         Me.GST_TextBox.Name = "GST_TextBox"
         Me.GST_TextBox.Size = New System.Drawing.Size(100, 27)
         Me.GST_TextBox.TabIndex = 9
         Me.GST_TextBox.Text = "0"
+        Me.GST_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Final_Bill_Label
         '
@@ -340,12 +369,14 @@ Partial Class Form1
         '
         'Total_Bill
         '
+        Me.Total_Bill.Enabled = False
         Me.Total_Bill.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Total_Bill.Location = New System.Drawing.Point(151, 19)
         Me.Total_Bill.Name = "Total_Bill"
         Me.Total_Bill.Size = New System.Drawing.Size(100, 27)
         Me.Total_Bill.TabIndex = 2
         Me.Total_Bill.Text = "0"
+        Me.Total_Bill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
         '
@@ -359,12 +390,14 @@ Partial Class Form1
         '
         'Discount_Textbox
         '
+        Me.Discount_Textbox.Enabled = False
         Me.Discount_Textbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Discount_Textbox.Location = New System.Drawing.Point(151, 99)
         Me.Discount_Textbox.Name = "Discount_Textbox"
         Me.Discount_Textbox.Size = New System.Drawing.Size(100, 27)
         Me.Discount_Textbox.TabIndex = 4
         Me.Discount_Textbox.Text = "0"
+        Me.Discount_Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label5
         '
@@ -379,6 +412,11 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Panel1.Controls.Add(Me.Label9)
+        Me.Panel1.Controls.Add(Me.Label8)
+        Me.Panel1.Controls.Add(Me.Label7)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.PictureBox9)
         Me.Panel1.Controls.Add(Me.PictureBox8)
         Me.Panel1.Controls.Add(Me.PictureBox7)
@@ -444,6 +482,7 @@ Partial Class Form1
         Me.Qty_Mcflurry.Size = New System.Drawing.Size(73, 25)
         Me.Qty_Mcflurry.TabIndex = 27
         Me.Qty_Mcflurry.Text = "0"
+        Me.Qty_Mcflurry.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Qty_Happymeal
         '
@@ -455,6 +494,7 @@ Partial Class Form1
         Me.Qty_Happymeal.Size = New System.Drawing.Size(73, 25)
         Me.Qty_Happymeal.TabIndex = 26
         Me.Qty_Happymeal.Text = "0"
+        Me.Qty_Happymeal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Qty_Mcpuff
         '
@@ -466,6 +506,7 @@ Partial Class Form1
         Me.Qty_Mcpuff.Size = New System.Drawing.Size(73, 25)
         Me.Qty_Mcpuff.TabIndex = 25
         Me.Qty_Mcpuff.Text = "0"
+        Me.Qty_Mcpuff.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'LabelMcflurry
         '
@@ -560,6 +601,7 @@ Partial Class Form1
         Me.Qty_Fries.Size = New System.Drawing.Size(73, 25)
         Me.Qty_Fries.TabIndex = 18
         Me.Qty_Fries.Text = "0"
+        Me.Qty_Fries.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Qty_burger
         '
@@ -571,6 +613,7 @@ Partial Class Form1
         Me.Qty_burger.Size = New System.Drawing.Size(73, 25)
         Me.Qty_burger.TabIndex = 17
         Me.Qty_burger.Text = "0"
+        Me.Qty_burger.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'LabelFries
         '
@@ -664,13 +707,143 @@ Partial Class Form1
         Me.PictureBox5.TabIndex = 24
         Me.PictureBox5.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(297, 43)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(22, 25)
+        Me.Label1.TabIndex = 31
+        Me.Label1.Text = "₹"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(297, 153)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(22, 25)
+        Me.Label2.TabIndex = 32
+        Me.Label2.Text = "₹"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(123, 19)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(22, 25)
+        Me.Label3.TabIndex = 33
+        Me.Label3.Text = "₹"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(298, 264)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(22, 25)
+        Me.Label7.TabIndex = 34
+        Me.Label7.Text = "₹"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(298, 210)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(22, 25)
+        Me.Label8.TabIndex = 35
+        Me.Label8.Text = "₹"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(297, 99)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(22, 25)
+        Me.Label9.TabIndex = 36
+        Me.Label9.Text = "₹"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(123, 61)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(22, 25)
+        Me.Label10.TabIndex = 34
+        Me.Label10.Text = "₹"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(256, 36)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(22, 25)
+        Me.Label11.TabIndex = 35
+        Me.Label11.Text = "₹"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(123, 101)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(22, 25)
+        Me.Label12.TabIndex = 35
+        Me.Label12.Text = "₹"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(256, 148)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(22, 25)
+        Me.Label13.TabIndex = 36
+        Me.Label13.Text = "₹"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(256, 94)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(22, 25)
+        Me.Label14.TabIndex = 37
+        Me.Label14.Text = "₹"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(123, 132)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(22, 25)
+        Me.Label15.TabIndex = 32
+        Me.Label15.Text = "₹"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(259, 199)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(22, 25)
+        Me.Label16.TabIndex = 33
+        Me.Label16.Text = "₹"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.McDonald_s.My.Resources.Resources.shahbaz_ali_Ye_EB_8rz34_unsplash1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1323, 797)
+        Me.ClientSize = New System.Drawing.Size(1337, 797)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox5)
@@ -756,4 +929,17 @@ Partial Class Form1
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
 End Class

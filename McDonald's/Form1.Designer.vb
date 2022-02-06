@@ -23,591 +23,322 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Panel1_Burgers = New System.Windows.Forms.Panel()
+        Me.Panel5_Burger_Menu = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Qty_burger = New System.Windows.Forms.TextBox()
+        Me.Label_Burger = New System.Windows.Forms.Label()
+        Me.Burger_CheckBox = New System.Windows.Forms.CheckBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.Qty_Lemontea = New System.Windows.Forms.TextBox()
-        Me.Qty_Icetea = New System.Windows.Forms.TextBox()
-        Me.Qty_Redbull = New System.Windows.Forms.TextBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.Qty_Coke = New System.Windows.Forms.TextBox()
-        Me.LabelLemontea = New System.Windows.Forms.Label()
-        Me.LabelIcetea = New System.Windows.Forms.Label()
-        Me.LabelRedbull = New System.Windows.Forms.Label()
-        Me.LabelCoke = New System.Windows.Forms.Label()
-        Me.LemonteaCheckBox = New System.Windows.Forms.CheckBox()
-        Me.IceteaCheckBox = New System.Windows.Forms.CheckBox()
-        Me.RedbullCheckBox = New System.Windows.Forms.CheckBox()
-        Me.CokeCheckBox = New System.Windows.Forms.CheckBox()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Final_Bill_TextBox = New System.Windows.Forms.TextBox()
-        Me.GST_TextBox = New System.Windows.Forms.TextBox()
-        Me.Final_Bill_Label = New System.Windows.Forms.Label()
-        Me.Total_Bill = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Discount_Textbox = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.Qty_Mcflurry = New System.Windows.Forms.TextBox()
-        Me.Qty_Happymeal = New System.Windows.Forms.TextBox()
-        Me.Qty_Mcpuff = New System.Windows.Forms.TextBox()
-        Me.LabelMcflurry = New System.Windows.Forms.Label()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.LabelHappymeal = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.LabelMcpuff = New System.Windows.Forms.Label()
-        Me.McflurryCheckBox = New System.Windows.Forms.CheckBox()
-        Me.HappymealCheckBox = New System.Windows.Forms.CheckBox()
-        Me.McpuffCheckBox = New System.Windows.Forms.CheckBox()
-        Me.Qty_Fries = New System.Windows.Forms.TextBox()
-        Me.Qty_burger = New System.Windows.Forms.TextBox()
-        Me.LabelFries = New System.Windows.Forms.Label()
-        Me.Label_Burger = New System.Windows.Forms.Label()
-        Me.Fries_CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.Burger_CheckBox = New System.Windows.Forms.CheckBox()
-        Me.Reset_Button = New System.Windows.Forms.Button()
-        Me.Button_Make_Bill = New System.Windows.Forms.Button()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Panel3.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        Me.Panel1_Burgers.SuspendLayout()
+        Me.Panel5_Burger_Menu.SuspendLayout()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel2.SuspendLayout()
-        Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Panel3
+        'Panel4
         '
-        Me.Panel3.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Panel3.Controls.Add(Me.Label16)
-        Me.Panel3.Controls.Add(Me.Label13)
-        Me.Panel3.Controls.Add(Me.Label14)
-        Me.Panel3.Controls.Add(Me.Label11)
-        Me.Panel3.Controls.Add(Me.PictureBox12)
-        Me.Panel3.Controls.Add(Me.PictureBox11)
-        Me.Panel3.Controls.Add(Me.PictureBox10)
-        Me.Panel3.Controls.Add(Me.Qty_Lemontea)
-        Me.Panel3.Controls.Add(Me.Qty_Icetea)
-        Me.Panel3.Controls.Add(Me.Qty_Redbull)
-        Me.Panel3.Controls.Add(Me.PictureBox4)
-        Me.Panel3.Controls.Add(Me.Qty_Coke)
-        Me.Panel3.Controls.Add(Me.LabelLemontea)
-        Me.Panel3.Controls.Add(Me.LabelIcetea)
-        Me.Panel3.Controls.Add(Me.LabelRedbull)
-        Me.Panel3.Controls.Add(Me.LabelCoke)
-        Me.Panel3.Controls.Add(Me.LemonteaCheckBox)
-        Me.Panel3.Controls.Add(Me.IceteaCheckBox)
-        Me.Panel3.Controls.Add(Me.RedbullCheckBox)
-        Me.Panel3.Controls.Add(Me.CokeCheckBox)
-        Me.Panel3.Location = New System.Drawing.Point(844, 246)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(481, 244)
-        Me.Panel3.TabIndex = 26
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(175, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(12, Byte), Integer))
+        Me.Panel4.Controls.Add(Me.PictureBox9)
+        Me.Panel4.Controls.Add(Me.PictureBox8)
+        Me.Panel4.Controls.Add(Me.PictureBox5)
+        Me.Panel4.Controls.Add(Me.PictureBox4)
+        Me.Panel4.Controls.Add(Me.Button4)
+        Me.Panel4.Controls.Add(Me.Button3)
+        Me.Panel4.Controls.Add(Me.Button2)
+        Me.Panel4.Controls.Add(Me.Button1)
+        Me.Panel4.Controls.Add(Me.PictureBox6)
+        Me.Panel4.Location = New System.Drawing.Point(1, 0)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(263, 757)
+        Me.Panel4.TabIndex = 32
         '
-        'PictureBox12
+        'Button4
         '
-        Me.PictureBox12.Image = Global.McDonald_s.My.Resources.Resources.lemontea
-        Me.PictureBox12.Location = New System.Drawing.Point(19, 183)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(73, 50)
-        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox12.TabIndex = 18
-        Me.PictureBox12.TabStop = False
+        Me.Button4.BackColor = System.Drawing.Color.Transparent
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(0, 372)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(252, 60)
+        Me.Button4.TabIndex = 29
+        Me.Button4.Text = "Cart"
+        Me.Button4.UseVisualStyleBackColor = False
         '
-        'PictureBox11
+        'Button3
         '
-        Me.PictureBox11.Image = Global.McDonald_s.My.Resources.Resources.Icetea
-        Me.PictureBox11.Location = New System.Drawing.Point(19, 127)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(73, 50)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 17
-        Me.PictureBox11.TabStop = False
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(0, 293)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(252, 60)
+        Me.Button3.TabIndex = 28
+        Me.Button3.Text = "    Bevrages"
+        Me.Button3.UseVisualStyleBackColor = False
         '
-        'PictureBox10
+        'Button2
         '
-        Me.PictureBox10.Image = Global.McDonald_s.My.Resources.Resources.RedBull
-        Me.PictureBox10.Location = New System.Drawing.Point(19, 72)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(73, 50)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 16
-        Me.PictureBox10.TabStop = False
+        Me.Button2.BackColor = System.Drawing.Color.Transparent
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(-3, 211)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(252, 60)
+        Me.Button2.TabIndex = 27
+        Me.Button2.Text = "Meals"
+        Me.Button2.UseVisualStyleBackColor = False
         '
-        'Qty_Lemontea
+        'Button1
         '
-        Me.Qty_Lemontea.Enabled = False
-        Me.Qty_Lemontea.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Lemontea.Location = New System.Drawing.Point(363, 199)
-        Me.Qty_Lemontea.Multiline = True
-        Me.Qty_Lemontea.Name = "Qty_Lemontea"
-        Me.Qty_Lemontea.Size = New System.Drawing.Size(73, 25)
-        Me.Qty_Lemontea.TabIndex = 11
-        Me.Qty_Lemontea.Text = "0"
-        Me.Qty_Lemontea.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(-3, 129)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(252, 60)
+        Me.Button1.TabIndex = 26
+        Me.Button1.Text = "    Burger "
+        Me.Button1.UseVisualStyleBackColor = False
         '
-        'Qty_Icetea
+        'Panel1_Burgers
         '
-        Me.Qty_Icetea.Enabled = False
-        Me.Qty_Icetea.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Icetea.Location = New System.Drawing.Point(363, 148)
-        Me.Qty_Icetea.Multiline = True
-        Me.Qty_Icetea.Name = "Qty_Icetea"
-        Me.Qty_Icetea.Size = New System.Drawing.Size(73, 25)
-        Me.Qty_Icetea.TabIndex = 10
-        Me.Qty_Icetea.Text = "0"
-        Me.Qty_Icetea.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Panel1_Burgers.BackColor = System.Drawing.SystemColors.GrayText
+        Me.Panel1_Burgers.Controls.Add(Me.Panel5_Burger_Menu)
+        Me.Panel1_Burgers.Location = New System.Drawing.Point(256, 0)
+        Me.Panel1_Burgers.Name = "Panel1_Burgers"
+        Me.Panel1_Burgers.Size = New System.Drawing.Size(1097, 757)
+        Me.Panel1_Burgers.TabIndex = 33
         '
-        'Qty_Redbull
+        'Panel5_Burger_Menu
         '
-        Me.Qty_Redbull.Enabled = False
-        Me.Qty_Redbull.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Redbull.Location = New System.Drawing.Point(363, 93)
-        Me.Qty_Redbull.Multiline = True
-        Me.Qty_Redbull.Name = "Qty_Redbull"
-        Me.Qty_Redbull.Size = New System.Drawing.Size(73, 25)
-        Me.Qty_Redbull.TabIndex = 9
-        Me.Qty_Redbull.Text = "0"
-        Me.Qty_Redbull.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Panel5_Burger_Menu.BackColor = System.Drawing.Color.Transparent
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label10)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.TextBox5)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label11)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.CheckBox5)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.PictureBox12)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label8)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.TextBox4)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label9)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.CheckBox4)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.PictureBox7)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label2)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.TextBox3)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label7)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.CheckBox3)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.PictureBox3)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label5)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.TextBox2)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label6)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.CheckBox2)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label3)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.TextBox1)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label4)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.CheckBox1)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.PictureBox11)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.PictureBox10)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label1)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.PictureBox2)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Qty_burger)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Label_Burger)
+        Me.Panel5_Burger_Menu.Controls.Add(Me.Burger_CheckBox)
+        Me.Panel5_Burger_Menu.Location = New System.Drawing.Point(3, 129)
+        Me.Panel5_Burger_Menu.Name = "Panel5_Burger_Menu"
+        Me.Panel5_Burger_Menu.Size = New System.Drawing.Size(1105, 603)
+        Me.Panel5_Burger_Menu.TabIndex = 32
         '
-        'PictureBox4
+        'Label2
         '
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(19, 15)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(73, 50)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 15
-        Me.PictureBox4.TabStop = False
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(336, 478)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(22, 25)
+        Me.Label2.TabIndex = 51
+        Me.Label2.Text = "₹"
         '
-        'Qty_Coke
+        'TextBox3
         '
-        Me.Qty_Coke.Enabled = False
-        Me.Qty_Coke.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Coke.Location = New System.Drawing.Point(363, 36)
-        Me.Qty_Coke.Multiline = True
-        Me.Qty_Coke.Name = "Qty_Coke"
-        Me.Qty_Coke.Size = New System.Drawing.Size(73, 25)
-        Me.Qty_Coke.TabIndex = 8
-        Me.Qty_Coke.Text = "0"
-        Me.Qty_Coke.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TextBox3.Enabled = False
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(460, 474)
+        Me.TextBox3.Multiline = True
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(73, 25)
+        Me.TextBox3.TabIndex = 50
+        Me.TextBox3.Text = "0"
+        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'LabelLemontea
+        'Label7
         '
-        Me.LabelLemontea.AutoSize = True
-        Me.LabelLemontea.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelLemontea.Location = New System.Drawing.Point(287, 199)
-        Me.LabelLemontea.Name = "LabelLemontea"
-        Me.LabelLemontea.Size = New System.Drawing.Size(34, 25)
-        Me.LabelLemontea.TabIndex = 7
-        Me.LabelLemontea.Text = "90"
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(364, 478)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(34, 25)
+        Me.Label7.TabIndex = 49
+        Me.Label7.Text = "80"
         '
-        'LabelIcetea
+        'CheckBox3
         '
-        Me.LabelIcetea.AutoSize = True
-        Me.LabelIcetea.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelIcetea.Location = New System.Drawing.Point(284, 148)
-        Me.LabelIcetea.Name = "LabelIcetea"
-        Me.LabelIcetea.Size = New System.Drawing.Size(34, 25)
-        Me.LabelIcetea.TabIndex = 6
-        Me.LabelIcetea.Text = "90"
-        '
-        'LabelRedbull
-        '
-        Me.LabelRedbull.AutoSize = True
-        Me.LabelRedbull.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelRedbull.Location = New System.Drawing.Point(284, 93)
-        Me.LabelRedbull.Name = "LabelRedbull"
-        Me.LabelRedbull.Size = New System.Drawing.Size(45, 25)
-        Me.LabelRedbull.TabIndex = 5
-        Me.LabelRedbull.Text = "120"
-        '
-        'LabelCoke
-        '
-        Me.LabelCoke.AutoSize = True
-        Me.LabelCoke.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelCoke.Location = New System.Drawing.Point(281, 36)
-        Me.LabelCoke.Name = "LabelCoke"
-        Me.LabelCoke.Size = New System.Drawing.Size(34, 25)
-        Me.LabelCoke.TabIndex = 4
-        Me.LabelCoke.Text = "40"
-        '
-        'LemonteaCheckBox
-        '
-        Me.LemonteaCheckBox.AutoSize = True
-        Me.LemonteaCheckBox.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LemonteaCheckBox.Location = New System.Drawing.Point(122, 199)
-        Me.LemonteaCheckBox.Name = "LemonteaCheckBox"
-        Me.LemonteaCheckBox.Size = New System.Drawing.Size(128, 29)
-        Me.LemonteaCheckBox.TabIndex = 3
-        Me.LemonteaCheckBox.Text = "Lemon Tea"
-        Me.LemonteaCheckBox.UseVisualStyleBackColor = True
-        '
-        'IceteaCheckBox
-        '
-        Me.IceteaCheckBox.AutoSize = True
-        Me.IceteaCheckBox.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IceteaCheckBox.Location = New System.Drawing.Point(122, 148)
-        Me.IceteaCheckBox.Name = "IceteaCheckBox"
-        Me.IceteaCheckBox.Size = New System.Drawing.Size(93, 29)
-        Me.IceteaCheckBox.TabIndex = 2
-        Me.IceteaCheckBox.Text = "Ice Tea"
-        Me.IceteaCheckBox.UseVisualStyleBackColor = True
-        '
-        'RedbullCheckBox
-        '
-        Me.RedbullCheckBox.AutoSize = True
-        Me.RedbullCheckBox.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RedbullCheckBox.Location = New System.Drawing.Point(122, 93)
-        Me.RedbullCheckBox.Name = "RedbullCheckBox"
-        Me.RedbullCheckBox.Size = New System.Drawing.Size(100, 29)
-        Me.RedbullCheckBox.TabIndex = 1
-        Me.RedbullCheckBox.Text = "RedBull"
-        Me.RedbullCheckBox.UseVisualStyleBackColor = True
-        '
-        'CokeCheckBox
-        '
-        Me.CokeCheckBox.AutoSize = True
-        Me.CokeCheckBox.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CokeCheckBox.Location = New System.Drawing.Point(122, 36)
-        Me.CokeCheckBox.Name = "CokeCheckBox"
-        Me.CokeCheckBox.Size = New System.Drawing.Size(78, 29)
-        Me.CokeCheckBox.TabIndex = 0
-        Me.CokeCheckBox.Text = "Coke"
-        Me.CokeCheckBox.UseVisualStyleBackColor = True
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Panel2.Controls.Add(Me.Label15)
-        Me.Panel2.Controls.Add(Me.Label12)
-        Me.Panel2.Controls.Add(Me.Label10)
-        Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Controls.Add(Me.Final_Bill_TextBox)
-        Me.Panel2.Controls.Add(Me.GST_TextBox)
-        Me.Panel2.Controls.Add(Me.Label3)
-        Me.Panel2.Controls.Add(Me.Final_Bill_Label)
-        Me.Panel2.Controls.Add(Me.Total_Bill)
-        Me.Panel2.Controls.Add(Me.Label6)
-        Me.Panel2.Controls.Add(Me.Discount_Textbox)
-        Me.Panel2.Controls.Add(Me.Label5)
-        Me.Panel2.Location = New System.Drawing.Point(616, 548)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(272, 169)
-        Me.Panel2.TabIndex = 22
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(17, 19)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(75, 20)
-        Me.Label4.TabIndex = 1
-        Me.Label4.Text = "Total Bill"
-        '
-        'Final_Bill_TextBox
-        '
-        Me.Final_Bill_TextBox.Enabled = False
-        Me.Final_Bill_TextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Final_Bill_TextBox.Location = New System.Drawing.Point(151, 134)
-        Me.Final_Bill_TextBox.Name = "Final_Bill_TextBox"
-        Me.Final_Bill_TextBox.Size = New System.Drawing.Size(100, 27)
-        Me.Final_Bill_TextBox.TabIndex = 7
-        Me.Final_Bill_TextBox.Text = "0"
-        Me.Final_Bill_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'GST_TextBox
-        '
-        Me.GST_TextBox.Enabled = False
-        Me.GST_TextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GST_TextBox.Location = New System.Drawing.Point(151, 59)
-        Me.GST_TextBox.Name = "GST_TextBox"
-        Me.GST_TextBox.Size = New System.Drawing.Size(100, 27)
-        Me.GST_TextBox.TabIndex = 9
-        Me.GST_TextBox.Text = "0"
-        Me.GST_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Final_Bill_Label
-        '
-        Me.Final_Bill_Label.AutoSize = True
-        Me.Final_Bill_Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Final_Bill_Label.Location = New System.Drawing.Point(16, 137)
-        Me.Final_Bill_Label.Name = "Final_Bill_Label"
-        Me.Final_Bill_Label.Size = New System.Drawing.Size(74, 20)
-        Me.Final_Bill_Label.TabIndex = 6
-        Me.Final_Bill_Label.Text = "Final Bill"
-        '
-        'Total_Bill
-        '
-        Me.Total_Bill.Enabled = False
-        Me.Total_Bill.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Total_Bill.Location = New System.Drawing.Point(151, 19)
-        Me.Total_Bill.Name = "Total_Bill"
-        Me.Total_Bill.Size = New System.Drawing.Size(100, 27)
-        Me.Total_Bill.TabIndex = 2
-        Me.Total_Bill.Text = "0"
-        Me.Total_Bill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(17, 59)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(43, 20)
-        Me.Label6.TabIndex = 8
-        Me.Label6.Text = "GST"
-        '
-        'Discount_Textbox
-        '
-        Me.Discount_Textbox.Enabled = False
-        Me.Discount_Textbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Discount_Textbox.Location = New System.Drawing.Point(151, 99)
-        Me.Discount_Textbox.Name = "Discount_Textbox"
-        Me.Discount_Textbox.Size = New System.Drawing.Size(100, 27)
-        Me.Discount_Textbox.TabIndex = 4
-        Me.Discount_Textbox.Text = "0"
-        Me.Discount_Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox3.Location = New System.Drawing.Point(159, 474)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(120, 29)
+        Me.CheckBox3.TabIndex = 48
+        Me.CheckBox3.Text = "McPaneer"
+        Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(16, 99)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(873, 117)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(76, 20)
-        Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Discount"
+        Me.Label5.Size = New System.Drawing.Size(22, 25)
+        Me.Label5.TabIndex = 46
+        Me.Label5.Text = "₹"
         '
-        'Panel1
+        'TextBox2
         '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Panel1.Controls.Add(Me.Label9)
-        Me.Panel1.Controls.Add(Me.Label8)
-        Me.Panel1.Controls.Add(Me.Label7)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.PictureBox9)
-        Me.Panel1.Controls.Add(Me.PictureBox8)
-        Me.Panel1.Controls.Add(Me.PictureBox7)
-        Me.Panel1.Controls.Add(Me.Qty_Mcflurry)
-        Me.Panel1.Controls.Add(Me.Qty_Happymeal)
-        Me.Panel1.Controls.Add(Me.Qty_Mcpuff)
-        Me.Panel1.Controls.Add(Me.LabelMcflurry)
-        Me.Panel1.Controls.Add(Me.PictureBox3)
-        Me.Panel1.Controls.Add(Me.LabelHappymeal)
-        Me.Panel1.Controls.Add(Me.PictureBox2)
-        Me.Panel1.Controls.Add(Me.LabelMcpuff)
-        Me.Panel1.Controls.Add(Me.McflurryCheckBox)
-        Me.Panel1.Controls.Add(Me.HappymealCheckBox)
-        Me.Panel1.Controls.Add(Me.McpuffCheckBox)
-        Me.Panel1.Controls.Add(Me.Qty_Fries)
-        Me.Panel1.Controls.Add(Me.Qty_burger)
-        Me.Panel1.Controls.Add(Me.LabelFries)
-        Me.Panel1.Controls.Add(Me.Label_Burger)
-        Me.Panel1.Controls.Add(Me.Fries_CheckBox3)
-        Me.Panel1.Controls.Add(Me.Burger_CheckBox)
-        Me.Panel1.Location = New System.Drawing.Point(12, 275)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(553, 312)
-        Me.Panel1.TabIndex = 19
+        Me.TextBox2.Enabled = False
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(997, 113)
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(73, 25)
+        Me.TextBox2.TabIndex = 45
+        Me.TextBox2.Text = "0"
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox9
+        'Label6
         '
-        Me.PictureBox9.Image = Global.McDonald_s.My.Resources.Resources.external_content_duckduckg
-        Me.PictureBox9.Location = New System.Drawing.Point(25, 253)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(73, 50)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 30
-        Me.PictureBox9.TabStop = False
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(901, 117)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(34, 25)
+        Me.Label6.TabIndex = 44
+        Me.Label6.Text = "80"
         '
-        'PictureBox8
+        'CheckBox2
         '
-        Me.PictureBox8.Image = Global.McDonald_s.My.Resources.Resources.external
-        Me.PictureBox8.Location = New System.Drawing.Point(25, 197)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(73, 50)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 29
-        Me.PictureBox8.TabStop = False
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.Location = New System.Drawing.Point(696, 113)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(165, 29)
+        Me.CheckBox2.TabIndex = 43
+        Me.CheckBox2.Text = "Chicken Burger"
+        Me.CheckBox2.UseVisualStyleBackColor = True
         '
-        'PictureBox7
+        'Label3
         '
-        Me.PictureBox7.Image = Global.McDonald_s.My.Resources.Resources.external_content_duckduckgo_co
-        Me.PictureBox7.Location = New System.Drawing.Point(25, 141)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(73, 50)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 28
-        Me.PictureBox7.TabStop = False
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(336, 302)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(22, 25)
+        Me.Label3.TabIndex = 42
+        Me.Label3.Text = "₹"
         '
-        'Qty_Mcflurry
+        'TextBox1
         '
-        Me.Qty_Mcflurry.Enabled = False
-        Me.Qty_Mcflurry.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Mcflurry.Location = New System.Drawing.Point(450, 261)
-        Me.Qty_Mcflurry.Multiline = True
-        Me.Qty_Mcflurry.Name = "Qty_Mcflurry"
-        Me.Qty_Mcflurry.Size = New System.Drawing.Size(73, 25)
-        Me.Qty_Mcflurry.TabIndex = 27
-        Me.Qty_Mcflurry.Text = "0"
-        Me.Qty_Mcflurry.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TextBox1.Enabled = False
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(460, 298)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(73, 25)
+        Me.TextBox1.TabIndex = 41
+        Me.TextBox1.Text = "0"
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Qty_Happymeal
+        'Label4
         '
-        Me.Qty_Happymeal.Enabled = False
-        Me.Qty_Happymeal.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Happymeal.Location = New System.Drawing.Point(450, 209)
-        Me.Qty_Happymeal.Multiline = True
-        Me.Qty_Happymeal.Name = "Qty_Happymeal"
-        Me.Qty_Happymeal.Size = New System.Drawing.Size(73, 25)
-        Me.Qty_Happymeal.TabIndex = 26
-        Me.Qty_Happymeal.Text = "0"
-        Me.Qty_Happymeal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(364, 302)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(34, 25)
+        Me.Label4.TabIndex = 40
+        Me.Label4.Text = "80"
         '
-        'Qty_Mcpuff
+        'CheckBox1
         '
-        Me.Qty_Mcpuff.Enabled = False
-        Me.Qty_Mcpuff.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Mcpuff.Location = New System.Drawing.Point(450, 153)
-        Me.Qty_Mcpuff.Multiline = True
-        Me.Qty_Mcpuff.Name = "Qty_Mcpuff"
-        Me.Qty_Mcpuff.Size = New System.Drawing.Size(73, 25)
-        Me.Qty_Mcpuff.TabIndex = 25
-        Me.Qty_Mcpuff.Text = "0"
-        Me.Qty_Mcpuff.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(159, 298)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(110, 29)
+        Me.CheckBox1.TabIndex = 39
+        Me.CheckBox1.Text = "McVegie"
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'LabelMcflurry
+        'Label1
         '
-        Me.LabelMcflurry.AutoSize = True
-        Me.LabelMcflurry.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelMcflurry.Location = New System.Drawing.Point(326, 264)
-        Me.LabelMcflurry.Name = "LabelMcflurry"
-        Me.LabelMcflurry.Size = New System.Drawing.Size(45, 25)
-        Me.LabelMcflurry.TabIndex = 24
-        Me.LabelMcflurry.Text = "125"
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(25, 85)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(73, 50)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 14
-        Me.PictureBox3.TabStop = False
-        '
-        'LabelHappymeal
-        '
-        Me.LabelHappymeal.AutoSize = True
-        Me.LabelHappymeal.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelHappymeal.Location = New System.Drawing.Point(326, 209)
-        Me.LabelHappymeal.Name = "LabelHappymeal"
-        Me.LabelHappymeal.Size = New System.Drawing.Size(45, 25)
-        Me.LabelHappymeal.TabIndex = 23
-        Me.LabelHappymeal.Text = "200"
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(25, 12)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(73, 67)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 13
-        Me.PictureBox2.TabStop = False
-        '
-        'LabelMcpuff
-        '
-        Me.LabelMcpuff.AutoSize = True
-        Me.LabelMcpuff.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelMcpuff.Location = New System.Drawing.Point(326, 153)
-        Me.LabelMcpuff.Name = "LabelMcpuff"
-        Me.LabelMcpuff.Size = New System.Drawing.Size(34, 25)
-        Me.LabelMcpuff.TabIndex = 22
-        Me.LabelMcpuff.Text = "50"
-        '
-        'McflurryCheckBox
-        '
-        Me.McflurryCheckBox.AutoSize = True
-        Me.McflurryCheckBox.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.McflurryCheckBox.Location = New System.Drawing.Point(138, 264)
-        Me.McflurryCheckBox.Name = "McflurryCheckBox"
-        Me.McflurryCheckBox.Size = New System.Drawing.Size(111, 29)
-        Me.McflurryCheckBox.TabIndex = 21
-        Me.McflurryCheckBox.Text = "McFlurry"
-        Me.McflurryCheckBox.UseVisualStyleBackColor = True
-        '
-        'HappymealCheckBox
-        '
-        Me.HappymealCheckBox.AutoSize = True
-        Me.HappymealCheckBox.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.HappymealCheckBox.Location = New System.Drawing.Point(138, 205)
-        Me.HappymealCheckBox.Name = "HappymealCheckBox"
-        Me.HappymealCheckBox.Size = New System.Drawing.Size(140, 29)
-        Me.HappymealCheckBox.TabIndex = 20
-        Me.HappymealCheckBox.Text = "Happy Meal"
-        Me.HappymealCheckBox.UseVisualStyleBackColor = True
-        '
-        'McpuffCheckBox
-        '
-        Me.McpuffCheckBox.AutoSize = True
-        Me.McpuffCheckBox.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.McpuffCheckBox.Location = New System.Drawing.Point(138, 153)
-        Me.McpuffCheckBox.Name = "McpuffCheckBox"
-        Me.McpuffCheckBox.Size = New System.Drawing.Size(95, 29)
-        Me.McpuffCheckBox.TabIndex = 19
-        Me.McpuffCheckBox.Text = "McPuff"
-        Me.McpuffCheckBox.UseVisualStyleBackColor = True
-        '
-        'Qty_Fries
-        '
-        Me.Qty_Fries.Enabled = False
-        Me.Qty_Fries.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_Fries.Location = New System.Drawing.Point(449, 97)
-        Me.Qty_Fries.Multiline = True
-        Me.Qty_Fries.Name = "Qty_Fries"
-        Me.Qty_Fries.Size = New System.Drawing.Size(73, 25)
-        Me.Qty_Fries.TabIndex = 18
-        Me.Qty_Fries.Text = "0"
-        Me.Qty_Fries.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(336, 117)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(22, 25)
+        Me.Label1.TabIndex = 31
+        Me.Label1.Text = "₹"
         '
         'Qty_burger
         '
         Me.Qty_burger.Enabled = False
         Me.Qty_burger.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Qty_burger.Location = New System.Drawing.Point(449, 36)
+        Me.Qty_burger.Location = New System.Drawing.Point(460, 113)
         Me.Qty_burger.Multiline = True
         Me.Qty_burger.Name = "Qty_burger"
         Me.Qty_burger.Size = New System.Drawing.Size(73, 25)
@@ -615,74 +346,221 @@ Partial Class Form1
         Me.Qty_burger.Text = "0"
         Me.Qty_burger.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'LabelFries
-        '
-        Me.LabelFries.AutoSize = True
-        Me.LabelFries.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelFries.Location = New System.Drawing.Point(325, 99)
-        Me.LabelFries.Name = "LabelFries"
-        Me.LabelFries.Size = New System.Drawing.Size(34, 25)
-        Me.LabelFries.TabIndex = 15
-        Me.LabelFries.Text = "65"
-        '
         'Label_Burger
         '
         Me.Label_Burger.AutoSize = True
         Me.Label_Burger.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label_Burger.Location = New System.Drawing.Point(325, 43)
+        Me.Label_Burger.Location = New System.Drawing.Point(364, 117)
         Me.Label_Burger.Name = "Label_Burger"
         Me.Label_Burger.Size = New System.Drawing.Size(34, 25)
         Me.Label_Burger.TabIndex = 14
         Me.Label_Burger.Text = "80"
         '
-        'Fries_CheckBox3
-        '
-        Me.Fries_CheckBox3.AutoSize = True
-        Me.Fries_CheckBox3.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Fries_CheckBox3.Location = New System.Drawing.Point(138, 95)
-        Me.Fries_CheckBox3.Name = "Fries_CheckBox3"
-        Me.Fries_CheckBox3.Size = New System.Drawing.Size(74, 29)
-        Me.Fries_CheckBox3.TabIndex = 12
-        Me.Fries_CheckBox3.Text = "Fries"
-        Me.Fries_CheckBox3.UseVisualStyleBackColor = True
-        '
         'Burger_CheckBox
         '
         Me.Burger_CheckBox.AutoSize = True
         Me.Burger_CheckBox.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Burger_CheckBox.Location = New System.Drawing.Point(137, 39)
+        Me.Burger_CheckBox.Location = New System.Drawing.Point(159, 113)
         Me.Burger_CheckBox.Name = "Burger_CheckBox"
-        Me.Burger_CheckBox.Size = New System.Drawing.Size(92, 29)
+        Me.Burger_CheckBox.Size = New System.Drawing.Size(131, 29)
         Me.Burger_CheckBox.TabIndex = 11
-        Me.Burger_CheckBox.Text = "Burger"
+        Me.Burger_CheckBox.Text = "Veg Burger"
         Me.Burger_CheckBox.UseVisualStyleBackColor = True
         '
-        'Reset_Button
+        'Label8
         '
-        Me.Reset_Button.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Reset_Button.Font = New System.Drawing.Font("Microsoft Uighur", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Reset_Button.Location = New System.Drawing.Point(616, 723)
-        Me.Reset_Button.Name = "Reset_Button"
-        Me.Reset_Button.Size = New System.Drawing.Size(115, 49)
-        Me.Reset_Button.TabIndex = 21
-        Me.Reset_Button.Text = "Reset"
-        Me.Reset_Button.UseVisualStyleBackColor = False
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(873, 303)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(22, 25)
+        Me.Label8.TabIndex = 56
+        Me.Label8.Text = "₹"
         '
-        'Button_Make_Bill
+        'TextBox4
         '
-        Me.Button_Make_Bill.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Button_Make_Bill.Font = New System.Drawing.Font("Microsoft Uighur", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button_Make_Bill.Location = New System.Drawing.Point(764, 723)
-        Me.Button_Make_Bill.Name = "Button_Make_Bill"
-        Me.Button_Make_Bill.Size = New System.Drawing.Size(124, 49)
-        Me.Button_Make_Bill.TabIndex = 20
-        Me.Button_Make_Bill.Text = "Make Bill"
-        Me.Button_Make_Bill.UseVisualStyleBackColor = False
+        Me.TextBox4.Enabled = False
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(997, 299)
+        Me.TextBox4.Multiline = True
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(73, 25)
+        Me.TextBox4.TabIndex = 55
+        Me.TextBox4.Text = "0"
+        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(901, 303)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(34, 25)
+        Me.Label9.TabIndex = 54
+        Me.Label9.Text = "80"
+        '
+        'CheckBox4
+        '
+        Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox4.Location = New System.Drawing.Point(696, 299)
+        Me.CheckBox4.Name = "CheckBox4"
+        Me.CheckBox4.Size = New System.Drawing.Size(171, 29)
+        Me.CheckBox4.TabIndex = 53
+        Me.CheckBox4.Text = "Double Chicken"
+        Me.CheckBox4.UseVisualStyleBackColor = True
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(873, 479)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(22, 25)
+        Me.Label10.TabIndex = 61
+        Me.Label10.Text = "₹"
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Enabled = False
+        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Location = New System.Drawing.Point(997, 475)
+        Me.TextBox5.Multiline = True
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(73, 25)
+        Me.TextBox5.TabIndex = 60
+        Me.TextBox5.Text = "0"
+        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(901, 479)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(34, 25)
+        Me.Label11.TabIndex = 59
+        Me.Label11.Text = "80"
+        '
+        'CheckBox5
+        '
+        Me.CheckBox5.AutoSize = True
+        Me.CheckBox5.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox5.Location = New System.Drawing.Point(696, 475)
+        Me.CheckBox5.Name = "CheckBox5"
+        Me.CheckBox5.Size = New System.Drawing.Size(129, 29)
+        Me.CheckBox5.TabIndex = 58
+        Me.CheckBox5.Text = "McChicken"
+        Me.CheckBox5.UseVisualStyleBackColor = True
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.Image = Global.McDonald_s.My.Resources.Resources.external_content_duckduckgo_com
+        Me.PictureBox12.Location = New System.Drawing.Point(560, 444)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(106, 88)
+        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox12.TabIndex = 57
+        Me.PictureBox12.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = Global.McDonald_s.My.Resources.Resources._9c469d6aae4aca89c7e94d841a87879a
+        Me.PictureBox7.Location = New System.Drawing.Point(560, 268)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(106, 88)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 52
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.McDonald_s.My.Resources.Resources.Paneer
+        Me.PictureBox3.Location = New System.Drawing.Point(23, 444)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(106, 88)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 47
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.Image = Global.McDonald_s.My.Resources.Resources.chicken
+        Me.PictureBox11.Location = New System.Drawing.Point(560, 82)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(106, 88)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 38
+        Me.PictureBox11.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.McDonald_s.My.Resources.Resources.mcvegie
+        Me.PictureBox10.Location = New System.Drawing.Point(23, 268)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(106, 88)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 37
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(23, 82)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(106, 88)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 13
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox9.Image = Global.McDonald_s.My.Resources.Resources.rohan_gupta_sdLJaggCq3Q_unsplash
+        Me.PictureBox9.Location = New System.Drawing.Point(30, 303)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(57, 40)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox9.TabIndex = 33
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox8.Image = Global.McDonald_s.My.Resources.Resources.bill
+        Me.PictureBox8.Location = New System.Drawing.Point(30, 384)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(57, 40)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 32
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox5.Image = Global.McDonald_s.My.Resources.Resources.haseeb_jamil_J9lD6FS6_cs_unsplash
+        Me.PictureBox5.Location = New System.Drawing.Point(30, 138)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(57, 40)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 31
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox4.Image = Global.McDonald_s.My.Resources.Resources.external1
+        Me.PictureBox4.Location = New System.Drawing.Point(30, 220)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(57, 40)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 30
+        Me.PictureBox4.TabStop = False
         '
         'PictureBox6
         '
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox6.Location = New System.Drawing.Point(66, 12)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(74, 50)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -697,249 +575,78 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 23
         Me.PictureBox1.TabStop = False
         '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(526, 12)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(205, 100)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 24
-        Me.PictureBox5.TabStop = False
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(297, 43)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(22, 25)
-        Me.Label1.TabIndex = 31
-        Me.Label1.Text = "₹"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(297, 153)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(22, 25)
-        Me.Label2.TabIndex = 32
-        Me.Label2.Text = "₹"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(123, 19)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(22, 25)
-        Me.Label3.TabIndex = 33
-        Me.Label3.Text = "₹"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(298, 264)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(22, 25)
-        Me.Label7.TabIndex = 34
-        Me.Label7.Text = "₹"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(298, 210)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(22, 25)
-        Me.Label8.TabIndex = 35
-        Me.Label8.Text = "₹"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(297, 99)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(22, 25)
-        Me.Label9.TabIndex = 36
-        Me.Label9.Text = "₹"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(123, 61)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(22, 25)
-        Me.Label10.TabIndex = 34
-        Me.Label10.Text = "₹"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(256, 36)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(22, 25)
-        Me.Label11.TabIndex = 35
-        Me.Label11.Text = "₹"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(123, 101)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(22, 25)
-        Me.Label12.TabIndex = 35
-        Me.Label12.Text = "₹"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(256, 148)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(22, 25)
-        Me.Label13.TabIndex = 36
-        Me.Label13.Text = "₹"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(256, 94)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(22, 25)
-        Me.Label14.TabIndex = 37
-        Me.Label14.Text = "₹"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(123, 132)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(22, 25)
-        Me.Label15.TabIndex = 32
-        Me.Label15.Text = "₹"
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(259, 199)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(22, 25)
-        Me.Label16.TabIndex = 33
-        Me.Label16.Text = "₹"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.McDonald_s.My.Resources.Resources.shahbaz_ali_Ye_EB_8rz34_unsplash1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1337, 797)
-        Me.Controls.Add(Me.Panel3)
-        Me.Controls.Add(Me.PictureBox6)
-        Me.Controls.Add(Me.PictureBox5)
+        Me.ClientSize = New System.Drawing.Size(1353, 762)
+        Me.Controls.Add(Me.Panel1_Burgers)
+        Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Reset_Button)
-        Me.Controls.Add(Me.Button_Make_Bill)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "McDonald's"
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel1_Burgers.ResumeLayout(False)
+        Me.Panel5_Burger_Menu.ResumeLayout(False)
+        Me.Panel5_Burger_Menu.PerformLayout()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents Qty_Lemontea As TextBox
-    Friend WithEvents Qty_Icetea As TextBox
-    Friend WithEvents Qty_Redbull As TextBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Qty_Coke As TextBox
-    Friend WithEvents LabelLemontea As Label
-    Friend WithEvents LabelIcetea As Label
-    Friend WithEvents LabelRedbull As Label
-    Friend WithEvents LabelCoke As Label
-    Friend WithEvents LemonteaCheckBox As CheckBox
-    Friend WithEvents IceteaCheckBox As CheckBox
-    Friend WithEvents RedbullCheckBox As CheckBox
-    Friend WithEvents CokeCheckBox As CheckBox
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Final_Bill_TextBox As TextBox
-    Friend WithEvents GST_TextBox As TextBox
-    Friend WithEvents Final_Bill_Label As Label
-    Friend WithEvents Total_Bill As TextBox
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Discount_Textbox As TextBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Qty_Mcflurry As TextBox
-    Friend WithEvents Qty_Happymeal As TextBox
-    Friend WithEvents Qty_Mcpuff As TextBox
-    Friend WithEvents LabelMcflurry As Label
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents LabelHappymeal As Label
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Panel1_Burgers As Panel
+    Friend WithEvents Panel5_Burger_Menu As Panel
+    Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents LabelMcpuff As Label
-    Friend WithEvents McflurryCheckBox As CheckBox
-    Friend WithEvents HappymealCheckBox As CheckBox
-    Friend WithEvents McpuffCheckBox As CheckBox
-    Friend WithEvents Qty_Fries As TextBox
     Friend WithEvents Qty_burger As TextBox
-    Friend WithEvents LabelFries As Label
     Friend WithEvents Label_Burger As Label
-    Friend WithEvents Fries_CheckBox3 As CheckBox
     Friend WithEvents Burger_CheckBox As CheckBox
-    Friend WithEvents Reset_Button As Button
-    Friend WithEvents Button_Make_Bill As Button
-    Friend WithEvents PictureBox12 As PictureBox
-    Friend WithEvents PictureBox11 As PictureBox
-    Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents PictureBox9 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents Label16 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label7 As Label
+    Friend WithEvents PictureBox11 As PictureBox
+    Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents CheckBox5 As CheckBox
+    Friend WithEvents PictureBox12 As PictureBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents CheckBox4 As CheckBox
+    Friend WithEvents PictureBox7 As PictureBox
 End Class

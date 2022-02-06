@@ -118,14 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="shahbaz-ali-Ye_EB-8rz34-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shahbaz-ali-Ye_EB-8rz34-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="external-content.duckduckg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\external-content.duckduckg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lemontea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lemontea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="9c469d6aae4aca89c7e94d841a87879a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9c469d6aae4aca89c7e94d841a87879a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RedBull" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RedBull.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="shahbaz-ali-Ye_EB-8rz34-unsplash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shahbaz-ali-Ye_EB-8rz34-unsplash1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faisal-mehmood-9b4sVmen-d0-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\faisal-mehmood-9b4sVmen-d0-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="external-content.duckduckgo.co" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\external-content.duckduckgo.co.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,16 +139,37 @@
   <data name="Icetea" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icetea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rohan-gupta-sdLJaggCq3Q-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rohan-gupta-sdLJaggCq3Q-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="external1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\external1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="external" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\external.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="external-content.duckduckg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\external-content.duckduckg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Paneer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paneer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="faisal-mehmood-9b4sVmen-d0-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\faisal-mehmood-9b4sVmen-d0-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shahbaz-ali-Ye_EB-8rz34-unsplash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shahbaz-ali-Ye_EB-8rz34-unsplash1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="haseeb-jamil-J9lD6FS6_cs-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haseeb-jamil-J9lD6FS6_cs-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedBull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedBull.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lemontea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lemontea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mcvegie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcvegie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shahbaz-ali-Ye_EB-8rz34-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shahbaz-ali-Ye_EB-8rz34-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="external-content.duckduckgo.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\external-content.duckduckgo.com.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
